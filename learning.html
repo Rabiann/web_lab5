@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust programmin language</title>
+    <link rel="stylesheet" href="./grid.css">
+</head>
+<body>
+    <div class="grid__div">
+        <div class="header">
+            <div class="header__title">
+            <h2>In Rust we trust!🦀🦀🦀</h2>
+            </div>
+            <img src="rust-logo.png" alt="rust logo" style="float: right;">
+        </div>
+        <div class="side">
+            <ul>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="learning.html">Learning Rust🦀</a></li>
+                <li><a href="ecosystem.html">Rust ecosystem</a></li>
+                <li><a href="web.html">Web-development with Rust</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2>Working with cargo</h2>
+            <p>Now, let's work with Cargo - Rust's package manager</p>
+            <hr>
+            <h3>How to get Cargo</h3>
+            <p>Cargo is automatically installed with rustup.</p>
+            <pre><code>
+                cargo -h // get help for cargo
+            </code></pre>
+            <hr>
+            <h3>How to create Rust project?</h3>
+            <p>Rust projects are created via Cargo</p>
+            <code>cargo new my-project</code>
+            <p>They also can be initialised in existing directory</p>
+            <code>cargo init</code>
+            <hr>
+            <h3>How to build and run Rust projects?</h3>
+            <p>Rust project as you probably think are also built with Cargo</p>
+            <code>cargo build</code>
+            <p>Than, binary is in <b>target</b> folder</p>
+            <code>.targer/bin/my-project</code>
+            <p>But usually that process can be simplified with <b>cargo run</b> which build binary and runs it</p>
+            <code>cargo run</code>
+            <hr>
+            <p>cargo also supports a wide range of features, like managing dependencies, built-in tests and documentation autogeneration</p>
+        </div>
+        <div class="side1">                <h3>What is Rustbook?</h3>
+            Rustbook is a part of the official documentation for Rust. It's introduction to start writing Rust code.
+            <a href="https://doc.rust-lang.org/book/">Rustbook</a>
+        </div>
+        <div class="side2">
+            <h3>What are other official documentation sources?</h3>
+            Glad that you asked.
+            <ul>
+                <li><a href="https://doc.rust-lang.org/nomicon/">Rustnomicon (in-depth documentation of Rust topics)</a></li>
+                <li><a href="https://doc.rust-lang.org/stable/reference/">Rust reference(official language reference)</a></li>
+            </ul>
+
+        </div>
+        <div class="footer">
+            <div class="footer__div">
+                <div class="footer__title">
+                    <h2>styled with grid CSS</h2>
+                </div>
+            </div>
+        </div>
+    </table>
+    </div>
+</body>
+</html>
